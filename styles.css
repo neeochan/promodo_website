@@ -1,12 +1,76 @@
-body{
-    background-color: rgb(43, 42, 42);
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #161616;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-    color: white;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
+  text-align: center;
+  background: #c4fae8c0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.timer {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #000000;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #000000;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #252525;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+.settings label {
+  font-size: 1rem;
+  display: block;
+}
+
+.settings input {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
